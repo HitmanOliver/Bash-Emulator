@@ -3,7 +3,6 @@ import os
 from tkinter import ttk
 
 
-"""Константы"""
 T_WINDOW_W = 1000
 T_WINDOW_H = 800
 T_WINDOW_PAD_X = 50
@@ -12,7 +11,6 @@ INPUT_PAD_X = 8
 INPUT_PAD_Y = 8
 COMMANDS = ['ls', 'cd', 'exit']
 
-"""Коды результата обработки команды"""
 CODE_SUCCESS = 0
 CODE_INVALID_COMMAND = 1
 CODE_INVALID_ARGUMENT = 2
